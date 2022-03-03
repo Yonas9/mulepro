@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="muleprogitFlow" doc:id="f6f2348f-f0da-4bfb-9f13-3926e7f15864" >
 		<http:listener doc:name="Listener" doc:id="7cdbebc2-c6b7-4089-ba9a-5656b7aa8fc1" config-ref="HTTP_Listener_config" path="/hello"/>
-		<set-payload value="Hello World." doc:name="Set Payload" doc:id="2eaa01c9-191d-454a-8d76-dd5c4666fb62" />
+		<set-payload value="Hello there welcome home." doc:name="Set Payload" doc:id="2eaa01c9-191d-454a-8d76-dd5c4666fb62" />
 	</flow>
 </mule>
